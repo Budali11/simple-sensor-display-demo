@@ -1,4 +1,4 @@
-# rgb-lcd — i.MX6ULL 传感器数据 LVGL 显示项目
+# simple-sensor-display-demo — i.MX6ULL 传感器数据 LVGL 显示项目
 
 在正点原子 i.MX6ULL 开发板 + ATK 4.3" RGB LCD 上，用 [LVGL v9.3](https://lvgl.io)
 把两个传感器的数据实时显示到屏幕上，每个传感器占一个窗口。这是一个**完整项目**：
@@ -16,7 +16,7 @@
 ## 目录结构
 
 ```
-rgb-lcd/
+simple-sensor-display-demo/
 ├── CMakeLists.txt          # 顶层构建：交叉编译 + 集成 LVGL，串起 driver/ 和 app/
 ├── arm-toolchain.cmake     # 交叉工具链 (/opt/arm-none-linux-gnueabihf/)
 ├── lv_conf.h               # LVGL 配置（颜色深度、fbdev 后端、字体）
